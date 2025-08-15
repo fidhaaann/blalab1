@@ -1,91 +1,101 @@
-# Blablab - Audio to Gen Z Slang Converter
+<img width="3188" height="1202" alt="frame (3)" src="https://github.com/user-attachments/assets/517ad8e9-ad22-457d-9538-a9e62d137cd7" />
 
-A modern web application that converts audio files (English or Malayalam) into trendy Gen Z slang explanations using AI.
 
-## Features
+# [Project Name] 🎯
 
-- 🎵 Upload audio files (MP3, WAV, M4A, WebM, OGG)
-- 🌍 Automatic language detection (English/Malayalam)
-- 📝 Speech-to-text transcription
-- 🔥 Gen Z slang translation
-- 🌙 Light/Dark mode toggle
-- 📱 Responsive design
-- ⚡ Handles long audio files (auto-splitting)
 
-## Setup Instructions
+## Basic Details
+### Team Name: Fidhaan Aameer
 
-### 1. Install Dependencies
 
-\`\`\`bash
-npm install
-# or
-yarn install
-# or
-pnpm install
-\`\`\`
+### Team Members
+- Team Lead: Fidhaan Aameer - Toc H Institute of Science & Technology
 
-### 2. Configure Environment Variables
 
-1. Copy the environment template:
-\`\`\`bash
-cp .env.example .env.local
-\`\`\`
+### Project Description
+Blablab is a quirky and entertaining web app that lets you upload an audio clip in either English or Malayalam, automatically detects the spoken language, converts it into text, and runs it through AI to produce a short, witty, Gen-Z slang–infused explanation — loaded with humor, sarcasm, irony, and a pinch of playful chaos.
+### The Problem (that doesn't exist)
 
-2. Get your API keys:
-   - **Sarvam AI**: Visit [https://www.sarvam.ai/](https://www.sarvam.ai/) to get your API key
-   - **Google Gemini**: Visit [https://makersuite.google.com/app/apikey](https://makersuite.google.com/app/apikey) to get your API key
 
-3. Add your API keys to `.env.local`:
-\`\`\`env
-SARVAM_API_KEY=your_actual_sarvam_api_key
-GEMINI_API_KEY=your_actual_gemini_api_key
-\`\`\`
+[What ridiculous problem are you solving?]
+Sometimes you hear something, but it’s just… too formal. You need it to sound cool, short, and spicy — like how Gen Z would say it.
 
-### 3. Run the Development Server
-
-\`\`\`bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-\`\`\`
-
-Open [http://localhost:3000](http://localhost:3000) in your browser.
-
-### 4. Build for Production
-
-\`\`\`bash
-npm run build
-npm run start
-\`\`\`
-
-## Usage
-
-1. **Upload Audio**: Click the upload area or drag and drop an audio file
-2. **Processing**: Watch the animated soundwave while your audio is processed
-3. **Results**: View the detected language, transcription, and Gen Z translation
+### The Solution (that nobody asked for)
+We made Blablab: upload your boring audio, and get it back as pure internet slang. Your grandma’s cooking advice? Now it’s TikTok-ready.
 
 ## Technical Details
+### Technologies/Components Used
+For Software:
+- JavaScript
+- Node JS
+- CSS
+- Typescript
 
-- **Framework**: Next.js 15 with App Router
-- **Styling**: Tailwind CSS v4
-- **Icons**: Lucide React
-- **Fonts**: Geist Sans & Mono
-- **APIs**: Sarvam AI (speech-to-text) + Google Gemini (Gen Z translation)
 
-## File Limitations
+### Implementation
+For Software:
+# Installation
+git clone https://github.com/fidhaaann/blalab1.git
+cd blablab
+npm install
 
-- Maximum file size: 50MB
-- Supported formats: MP3, WAV, M4A, WebM, OGG
-- Long files (>30 seconds) are automatically split into chunks
 
-## Troubleshooting
+# Run
+npm run dev
 
-- **API Errors**: Ensure your API keys are correctly set in `.env.local`
-- **Upload Issues**: Check file format and size limitations
-- **Processing Fails**: Try with a shorter audio file or different format
+### Project Documentation
+For Software:
 
-## License
+# Screenshots (Add at least 3)
 
-This project is for educational and personal use.
+*Add caption explaining what this shows*
+
+![Screenshot2](Add screenshot 2 here with proper name)
+*Add caption explaining what this shows*
+
+![Screenshot3](Add screenshot 3 here with proper name)
+*Add caption explaining what this shows*
+
+# Diagrams
+![Workflow](Add your workflow/architecture diagram here)
+*Add caption explaining your workflow*
+
+For Hardware:
+
+# Schematic & Circuit
+![Circuit](Add your circuit diagram here)
+*Add caption explaining connections*
+
+![Schematic](Add your schematic diagram here)
+*Add caption explaining the schematic*
+
+# Build Photos
+![Components](Add photo of your components here)
+*List out all components shown*
+
+![Build](Add photos of build process here)
+*Explain the build steps*
+
+![Final](Add photo of final product here)
+*Explain the final build*
+
+### Project Demo
+# Video
+[Add your demo video link here]
+*Explain what the video demonstrates*
+
+# Additional Demos
+[Add any extra demo materials/links]
+
+## Team Contributions
+- [Name 1]: [Specific contributions]
+- [Name 2]: [Specific contributions]
+- [Name 3]: [Specific contributions]
+
+---
+Made with ❤️ at TinkerHub Useless Projects 
+
+![Static Badge](https://img.shields.io/badge/TinkerHub-24?color=%23000000&link=https%3A%2F%2Fwww.tinkerhub.org%2F)
+![Static Badge](https://img.shields.io/badge/UselessProjects--25-25?link=https%3A%2F%2Fwww.tinkerhub.org%2Fevents%2FQ2Q1TQKX6Q%2FUseless%2520Projects)
+
+
